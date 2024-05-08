@@ -1,0 +1,60 @@
+body{
+  background-color: #f5deb3;
+
+}
+.titulo {
+  font-size: 36px;
+  text-align: center;
+}
+
+.row {
+  padding: 10px;
+
+}
+
+a {
+  padding: 8px 16px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #000;
+}
+
+a:hover {
+  background-color: #B3CAF5;
+}
+
+a.active{
+  background-color: #B3CAF5;
+}
+
+.Select{
+  margin: 10px;
+}
+
+.upload{
+  width: auto;
+  height: 60px;
+  line-height: 60px;
+  border-width: 1px;
+  border-style: dashed;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 30%;
+}
+
+.multiplos-graph{
+  display: flex;
+  text-align: center;
+  margin: 10px 5%;
+  max-width: 90%;
+}
+
+.multiplos-graph > div{
+  margin: 0 5%;
+  flex: 1 1 auto;
+  margin: 10px;
+  overflow: hidden;
+}
